@@ -28,8 +28,9 @@ Funktionen:
     Spring Security (Authentifizierung)
     Spring Data JPA/Hibernate (Datenbankzugriff)
     MySQL (Datenbank)
-  
-  2- Employee-Management-System (Full-Stack | Spring Boot,  React.js, MySQL)
+
+
+2- Employee-Management-System (Full-Stack | Spring Boot,  React.js, MySQL)
 - Projektübersicht:
 Das Employee-Management-System ist eine Full-Stack-Webanwendung zur effizienten Verwaltung von Mitarbeiterdaten. Das System ermöglicht das Erstellen, Lesen, Aktualisieren und Löschen (CRUD) von Mitarbeiterinformationen über eine intuitive Benutzeroberfläche.
 - Technologien
