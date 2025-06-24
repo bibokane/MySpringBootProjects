@@ -1,7 +1,7 @@
 # MySpringBootProjects
 
 1- Job Portal – Spring Boot Web Application
-Projektübersicht:
+
 
 Dieses Projekt ist eine vollständige Jobportal-Webanwendung, entwickelt mit Spring Boot 3 und folgenden Technologien:
     Backend: Spring MVC, Spring Data JPA, Hibernate
@@ -31,8 +31,9 @@ Funktionen:
 
 
 2- Employee-Management-System (Full-Stack | Spring Boot,  React.js, MySQL)
-Projektübersicht:
+
 Das Employee-Management-System ist eine Full-Stack-Webanwendung zur effizienten Verwaltung von Mitarbeiterdaten. Das System ermöglicht das Erstellen, Lesen, Aktualisieren und Löschen (CRUD) von Mitarbeiterinformationen über eine intuitive Benutzeroberfläche.
+
 Technologien:
    - Backend: Spring Boot (Java) mit RESTful-API
    - Frontend: React.js (JavaScript)
