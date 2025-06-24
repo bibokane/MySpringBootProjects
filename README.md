@@ -31,12 +31,12 @@ Funktionen:
 
 
 2- Employee-Management-System (Full-Stack | Spring Boot,  React.js, MySQL)
-- Projektübersicht:
+Projektübersicht:
 Das Employee-Management-System ist eine Full-Stack-Webanwendung zur effizienten Verwaltung von Mitarbeiterdaten. Das System ermöglicht das Erstellen, Lesen, Aktualisieren und Löschen (CRUD) von Mitarbeiterinformationen über eine intuitive Benutzeroberfläche.
-- Technologien
-   Backend: Spring Boot (Java) mit RESTful-API
-   Frontend: React.js (JavaScript)
-   Datenbank: MySQL
-   Build-Tool: Maven
-   API-Testing: Postman
+Technologien:
+   - Backend: Spring Boot (Java) mit RESTful-API
+   - Frontend: React.js (JavaScript)
+   - Datenbank: MySQL
+   - Build-Tool: Maven
+   - API-Testing: Postman
   
