@@ -26,7 +26,7 @@ public class Users {
     private Date registrationDate;
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "userTypeId", referencedColumnName = "userTypeId")
+    @JoinColumn(name = "user_type_id", referencedColumnName = "userTypeId")
     private UsersType userTypeId;
 
     public Users() {
