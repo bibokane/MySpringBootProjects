@@ -1,6 +1,5 @@
 
 import './App.css'
-import HelloWorld from './assets/HelloWorld'
 import ListEmployeeComponent from './components/ListEmployeeComponent'
 
 
