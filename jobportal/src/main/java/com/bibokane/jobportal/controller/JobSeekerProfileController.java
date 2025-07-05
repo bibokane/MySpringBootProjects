@@ -68,8 +68,8 @@ public class JobSeekerProfileController {
 
     @PostMapping("/addNew")
     public String addNew(JobSeekerProfile jobSeekerProfile,
-                         @RequestParam("image") MultipartFile image,
-                         @RequestParam("pdf") MultipartFile pdf,
+                         @RequestParam(value = "image", required = false) MultipartFile image,
+                         @RequestParam(value = "pdf", required = false) MultipartFile pdf,
                          Model model) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
@@ -103,7 +103,7 @@ public class JobSeekerProfileController {
         JobSeekerProfile seekerProfile = jobSeekerProfileService.addNew(jobSeekerProfile);
 
         try {
-            String uploadDir = "photos/candidate/" + jobSeekerProfile.getUserAccountId();
+            String uploadDir = "/photos/candidate/" + seekerProfile.getUserAccountId();
             if (!Objects.equals(image.getOriginalFilename(), "")) {
                 FileUploadUtil.saveFile(uploadDir, imageName, image);
             }
